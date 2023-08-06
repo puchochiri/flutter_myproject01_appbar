@@ -86,6 +86,12 @@ class BuildALayout extends StatelessWidget {
         // ),
         body: Column(
           children: [
+            Image.asset(
+            'asset/img/lake.jpg',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
             titleSection,
             buttonSection,
             textSection,
